@@ -5,7 +5,7 @@
             "label": "build",
             "type": "shell",
             "command": "gcc",
-            "args": ["-o", "main", "main.c", "-lglut32", "-lopengl32","-IC:/msys64/mingw64/include","-LC:/msys64/mingw64/lib",
+            "args": ["-o", "main", "main.c", "-lglut32", "-lopengl32","-IC:/msys64/mingw64/include","-LC:/msys64/mingw64/lib , ${workspaceFolder}/main", "${workspaceFolder}/main.c", "-lglut32",
         ],
             "group": {
                 "kind": "build",
