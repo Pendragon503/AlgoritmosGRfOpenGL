@@ -1,0 +1,16 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "build",
+            "type": "shell",
+            "command": "gcc",
+            "args": ["-o", "main", "main.c", "-lglut32", "-lopengl32","-IC:/msys64/mingw64/include","-LC:/msys64/mingw64/lib",
+        ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            }
+        }
+    ]
+}
